@@ -1,0 +1,43 @@
+static/style.css
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+}
+
+nav {
+  background: #1e293b;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+main {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  width: 45%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#timer {
+  text-align: center;
+  font-size: 2em;
+}
