@@ -1,0 +1,30 @@
+templates/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StudyTrack</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <nav>
+    <h1>📘 StudyTrack</h1>
+  </nav>
+
+  <main>
+    <input id="task" placeholder="Enter subject">
+
+    <div class="buttons">
+      <button onclick="startTimer()">Start</button>
+      <button onclick="stopTimer()">Stop</button>
+    </div>
+
+    <h2 id="timer">00:00</h2>
+
+    <ul id="history"></ul>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
